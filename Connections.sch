@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 4
+Sheet 3 5
 Title ""
 Date ""
 Rev ""
@@ -291,4 +291,134 @@ Text GLabel 7250 1600 0    50   Input ~ 0
 SDIO_D2
 Text GLabel 7250 1500 0    50   Input ~ 0
 SDIO_D1
+Text GLabel 5900 3700 2    50   Input ~ 0
+B14
+Text GLabel 5900 3800 2    50   Input ~ 0
+B15
+Text GLabel 5900 3600 2    50   Input ~ 0
+B13
+Text GLabel 5900 3300 2    50   Input ~ 0
+B10
+Text GLabel 5900 3400 2    50   Input ~ 0
+B11
+Text GLabel 5900 3500 2    50   Input ~ 0
+B12
+Text GLabel 5950 2900 2    50   Input ~ 0
+B6
+Text GLabel 5950 3000 2    50   Input ~ 0
+B7
+Text GLabel 5950 3100 2    50   Input ~ 0
+B8
+Text GLabel 5950 3200 2    50   Input ~ 0
+B9
+Text GLabel 2900 2800 2    50   Input ~ 0
+B5
+Text GLabel 5950 2600 2    50   Input ~ 0
+B3
+Text GLabel 5950 2700 2    50   Input ~ 0
+B4
+Text GLabel 5950 2800 2    50   Input ~ 0
+B5
+Text GLabel 5950 2300 2    50   Input ~ 0
+B0
+Text GLabel 5950 2400 2    50   Input ~ 0
+B1
+Text GLabel 5950 2500 2    50   Input ~ 0
+B2
+Text GLabel 5950 1600 2    50   Input ~ 0
+A9
+Text GLabel 5950 1700 2    50   Input ~ 0
+A10
+Text GLabel 5950 1500 2    50   Input ~ 0
+A8
+Text GLabel 5950 1800 2    50   Input ~ 0
+A11
+Text GLabel 5950 1900 2    50   Input ~ 0
+A12
+Text GLabel 5950 2000 2    50   Input ~ 0
+A13
+Text GLabel 5950 2100 2    50   Input ~ 0
+A14
+Text GLabel 5950 2200 2    50   Input ~ 0
+A15
+Text GLabel 5950 1400 2    50   Input ~ 0
+PA7
+Text GLabel 5950 1300 2    50   Input ~ 0
+PA6
+Text GLabel 5950 1200 2    50   Input ~ 0
+PA5
+Text GLabel 5950 1100 2    50   Input ~ 0
+PA4
+Text GLabel 6000 700  2    50   Input ~ 0
+A0
+Text GLabel 6000 800  2    50   Input ~ 0
+A1
+Text GLabel 6000 900  2    50   Input ~ 0
+A2
+Text GLabel 6000 1000 2    50   Input ~ 0
+A3
+Text GLabel 7300 3700 2    50   Input ~ 0
+B14
+Text GLabel 7300 3800 2    50   Input ~ 0
+B15
+Text GLabel 7300 3600 2    50   Input ~ 0
+B13
+Text GLabel 7300 3300 2    50   Input ~ 0
+B10
+Text GLabel 7300 3400 2    50   Input ~ 0
+B11
+Text GLabel 7300 3500 2    50   Input ~ 0
+B12
+Text GLabel 7350 2900 2    50   Input ~ 0
+B6
+Text GLabel 7350 3000 2    50   Input ~ 0
+B7
+Text GLabel 7350 3100 2    50   Input ~ 0
+B8
+Text GLabel 7350 3200 2    50   Input ~ 0
+B9
+Text GLabel 7350 2600 2    50   Input ~ 0
+B3
+Text GLabel 7350 2700 2    50   Input ~ 0
+B4
+Text GLabel 7350 2800 2    50   Input ~ 0
+B5
+Text GLabel 7350 2300 2    50   Input ~ 0
+B0
+Text GLabel 7350 2400 2    50   Input ~ 0
+B1
+Text GLabel 7350 2500 2    50   Input ~ 0
+B2
+Text GLabel 7350 1600 2    50   Input ~ 0
+A9
+Text GLabel 7350 1700 2    50   Input ~ 0
+A10
+Text GLabel 7350 1500 2    50   Input ~ 0
+A8
+Text GLabel 7350 1800 2    50   Input ~ 0
+A11
+Text GLabel 7350 1900 2    50   Input ~ 0
+A12
+Text GLabel 7350 2000 2    50   Input ~ 0
+A13
+Text GLabel 7350 2100 2    50   Input ~ 0
+A14
+Text GLabel 7350 2200 2    50   Input ~ 0
+A15
+Text GLabel 7350 1400 2    50   Input ~ 0
+PA7
+Text GLabel 7350 1300 2    50   Input ~ 0
+PA6
+Text GLabel 7350 1200 2    50   Input ~ 0
+PA5
+Text GLabel 7350 1100 2    50   Input ~ 0
+PA4
+Text GLabel 7400 700  2    50   Input ~ 0
+A0
+Text GLabel 7400 800  2    50   Input ~ 0
+A1
+Text GLabel 7400 900  2    50   Input ~ 0
+A2
+Text GLabel 7400 1000 2    50   Input ~ 0
+A3
 $EndSCHEMATC
