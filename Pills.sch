@@ -288,13 +288,13 @@ A10
 Text GLabel 6350 4150 3    50   Input ~ 0
 3V3
 Text GLabel 6650 3650 1    50   Input ~ 0
-TDO
+JTDO
 Text GLabel 6550 3650 1    50   Input ~ 0
-TDI
+JTDI
 Text GLabel 6450 3650 1    50   Input ~ 0
-TCK
+JTCK
 Text GLabel 6350 3650 1    50   Input ~ 0
-TMS
+JTMS
 $Comp
 L Connector_Generic:Conn_01x04 J?
 U 1 1 61405A55
@@ -339,4 +339,10 @@ Text Notes 3300 4100 0    50   ~ 0
 SWD Debug Interface for Blue and Black Pills
 Text Notes 5850 4500 0    50   ~ 0
 JTAG and USART0 for Longan Nano
+Text GLabel 3800 5200 0    50   Input ~ 0
+3V3
+Text GLabel 4050 5200 2    50   Input ~ 0
+VCC
+Wire Wire Line
+	4050 5200 3800 5200
 $EndSCHEMATC

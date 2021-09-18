@@ -13,49 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Connector_Generic:Conn_02x05_Odd_Even UEXT?
-U 1 1 61419163
-P 3450 2500
-AR Path="/61419163" Ref="UEXT?"  Part="1" 
-AR Path="/614182C0/61419163" Ref="UEXT1"  Part="1" 
-F 0 "UEXT1" V 3546 2212 50  0000 R CNN
-F 1 "Conn_02x05_Odd_Even" V 3455 2212 50  0000 R CNN
-F 2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical" H 3450 2500 50  0001 C CNN
-F 3 "~" H 3450 2500 50  0001 C CNN
-	1    3450 2500
-	0    -1   -1   0   
-$EndComp
-Text GLabel 3250 2700 3    50   Input ~ 0
-3V3
-Text GLabel 3350 2700 3    50   Input ~ 0
-TXD
-Text GLabel 3450 2700 3    50   Input ~ 0
-SCL
-Text GLabel 3550 2700 3    50   Input ~ 0
-MISO
-Text GLabel 3650 2700 3    50   Input ~ 0
-SCK
-Text GLabel 3250 2200 1    50   Input ~ 0
-GND
-Text GLabel 3350 2200 1    50   Input ~ 0
-RXD
-Text GLabel 3450 2200 1    50   Input ~ 0
-SDA
-Text GLabel 3550 2200 1    50   Input ~ 0
-MOSI
-Text GLabel 3650 2200 1    50   Input ~ 0
-SSEL
-Text Notes 4250 1750 2    50   ~ 0
-https://en.wikipedia.org/wiki/UEXT
-Wire Notes Line
-	2350 1450 4850 1450
-Wire Notes Line
-	4850 1450 4850 3450
-Wire Notes Line
-	4850 3450 2350 3450
-Wire Notes Line
-	2350 3450 2350 1450
 Text GLabel 5950 1800 0    50   Input ~ 0
 PMOD_I2C_INT
 Text GLabel 5950 1900 0    50   Input ~ 0
@@ -71,12 +28,12 @@ VCC
 $Comp
 L Connector_Generic:Conn_02x06_Odd_Even PMOD1
 U 1 1 613DF13F
-P 6150 2100
-F 0 "PMOD1" H 6200 1575 50  0000 C CNN
-F 1 "Conn_02x06_Odd_Even" H 6200 1666 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Horizontal" H 6150 2100 50  0001 C CNN
-F 3 "~" H 6150 2100 50  0001 C CNN
-	1    6150 2100
+P 8350 3050
+F 0 "PMOD1" H 8400 2525 50  0000 C CNN
+F 1 "Conn_02x06_Odd_Even" H 8400 2616 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Horizontal" H 8350 3050 50  0001 C CNN
+F 3 "~" H 8350 3050 50  0001 C CNN
+	1    8350 3050
 	1    0    0    1   
 $EndComp
 Text GLabel 6450 1800 2    50   Input ~ 0
@@ -168,12 +125,12 @@ VCC
 $Comp
 L Connector_Generic:Conn_02x06_Odd_Even PMOD4
 U 1 1 613F116D
-P 8350 3050
-F 0 "PMOD4" H 8400 2525 50  0000 C CNN
-F 1 "Conn_02x06_Odd_Even" H 8400 2616 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Horizontal" H 8350 3050 50  0001 C CNN
-F 3 "~" H 8350 3050 50  0001 C CNN
-	1    8350 3050
+P 6150 2100
+F 0 "PMOD4" H 6200 1575 50  0000 C CNN
+F 1 "Conn_02x06_Odd_Even" H 6200 1666 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Horizontal" H 6150 2100 50  0001 C CNN
+F 3 "~" H 6150 2100 50  0001 C CNN
+	1    6150 2100
 	1    0    0    1   
 $EndComp
 Text GLabel 8650 3150 2    50   Input ~ 0
@@ -196,10 +153,6 @@ Text GLabel 8650 2950 2    50   Input ~ 0
 PMOD_GPIO7
 Text GLabel 8650 3050 2    50   Input ~ 0
 PMOD_GPIO8
-Text GLabel 6250 750  0    50   Input ~ 0
-PMOD_GPIO1
-Text GLabel 6250 750  2    50   Input ~ 0
-A1
 $Comp
 L Connector_Generic:Conn_02x05_Odd_Even JTAG1
 U 1 1 6141EDF9
@@ -218,15 +171,71 @@ GND
 Text GLabel 2050 6800 0    50   Input ~ 0
 GND
 Text GLabel 2050 7000 0    50   Input ~ 0
-GND_Detect
+GND
 Text GLabel 2550 6600 2    50   Input ~ 0
-TMS
+JTMS
 Text GLabel 2550 6700 2    50   Input ~ 0
-TCK
+JTCK
 Text GLabel 2550 6800 2    50   Input ~ 0
-TDO
+JTDO
 Text GLabel 2550 6900 2    50   Input ~ 0
-TDI
+JTDI
 Text GLabel 2550 7000 2    50   Input ~ 0
-nRESET
+~RST
+$Comp
+L Connector:USB_B_Micro J8
+U 1 1 61752725
+P 1050 1100
+F 0 "J8" H 1107 1567 50  0000 C CNN
+F 1 "USB_B_Micro" H 1107 1476 50  0000 C CNN
+F 2 "Connector_USB:USB_Micro-B_Wuerth_629105150521" H 1200 1050 50  0001 C CNN
+F 3 "~" H 1200 1050 50  0001 C CNN
+	1    1050 1100
+	1    0    0    -1  
+$EndComp
+Text GLabel 1350 1100 2    50   Input ~ 0
+USB_D+
+Text GLabel 1350 1200 2    50   Input ~ 0
+USB_D-
+$Comp
+L power:GND #PWR0101
+U 1 1 6175EC99
+P 1000 1750
+F 0 "#PWR0101" H 1000 1500 50  0001 C CNN
+F 1 "GND" H 1005 1577 50  0000 C CNN
+F 2 "" H 1000 1750 50  0001 C CNN
+F 3 "" H 1000 1750 50  0001 C CNN
+	1    1000 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 1750 1000 1600
+Wire Wire Line
+	1000 1600 950  1600
+Wire Wire Line
+	950  1600 950  1500
+Wire Wire Line
+	1000 1600 1050 1600
+Wire Wire Line
+	1050 1600 1050 1500
+Connection ~ 1000 1600
+Text GLabel 1350 900  2    50   Input ~ 0
+VBUS
+$Comp
+L Device:D_Schottky D1
+U 1 1 61761653
+P 4000 900
+F 0 "D1" H 4000 683 50  0000 C CNN
+F 1 "D_Schottky" H 4000 774 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 4000 900 50  0001 C CNN
+F 3 "~" H 4000 900 50  0001 C CNN
+	1    4000 900 
+	-1   0    0    1   
+$EndComp
+Text GLabel 3850 900  0    50   Input ~ 0
+VBUS
+Text GLabel 4150 900  2    50   Input ~ 0
+5V
+Wire Wire Line
+	1350 1300 1800 1300
 $EndSCHEMATC
