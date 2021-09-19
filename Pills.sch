@@ -316,25 +316,8 @@ Text GLabel 4150 3700 1    50   Input ~ 0
 SWDCLK
 Text GLabel 4050 3700 1    50   Input ~ 0
 SWDIO
-$Comp
-L Connector_Generic:Conn_01x01 J?
-U 1 1 61405A5F
-P 2100 3900
-AR Path="/61405A5F" Ref="J?"  Part="1" 
-AR Path="/613F341A/61405A5F" Ref="J1"  Part="1" 
-F 0 "J1" V 1972 3980 50  0000 L CNN
-F 1 "Conn_01x01" V 2063 3980 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2100 3900 50  0001 C CNN
-F 3 "~" H 2100 3900 50  0001 C CNN
-	1    2100 3900
-	0    1    1    0   
-$EndComp
-Text GLabel 2100 3700 1    50   Input ~ 0
-B2
 Text Notes 850  4700 0    50   ~ 0
 There is a GND pin on the common "vcc-gnd" Blue Pill.\nOn the Blue Pill Plus by "WeAct", it is 5V. Therefore this pin\nis left disconnected.
-Text Notes 850  4250 0    50   ~ 0
-On the Blue Pill there are BOOT0/BOOT1 headers\nWhen BOOT0 is low, BOOT1 functions as GPIO pin B2.\nThis pin can be connected here.
 Text Notes 3300 4100 0    50   ~ 0
 SWD Debug Interface for Blue and Black Pills
 Text Notes 5850 4500 0    50   ~ 0
@@ -345,4 +328,59 @@ Text GLabel 4050 5200 2    50   Input ~ 0
 VCC
 Wire Wire Line
 	4050 5200 3800 5200
+$Comp
+L Device:Battery_Cell BT1
+U 1 1 6146617F
+P 9500 1900
+F 0 "BT1" H 9618 1996 50  0000 L CNN
+F 1 "Battery_Cell" H 9618 1905 50  0000 L CNN
+F 2 "AvS_Battery:QJ1220-2SMT" V 9500 1960 50  0001 C CNN
+F 3 "~" V 9500 1960 50  0001 C CNN
+	1    9500 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 61467925
+P 9500 2000
+F 0 "#PWR0102" H 9500 1750 50  0001 C CNN
+F 1 "GND" H 9505 1827 50  0000 C CNN
+F 2 "" H 9500 2000 50  0001 C CNN
+F 3 "" H 9500 2000 50  0001 C CNN
+	1    9500 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Schottky D3
+U 1 1 61467FC5
+P 9500 1550
+F 0 "D3" V 9454 1630 50  0000 L CNN
+F 1 "D_Schottky" V 9545 1630 50  0000 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 9500 1550 50  0001 C CNN
+F 3 "~" H 9500 1550 50  0001 C CNN
+	1    9500 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D2
+U 1 1 614687C2
+P 9500 1050
+F 0 "D2" V 9546 970 50  0000 R CNN
+F 1 "D_Schottky" V 9455 970 50  0000 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 9500 1050 50  0001 C CNN
+F 3 "~" H 9500 1050 50  0001 C CNN
+	1    9500 1050
+	0    -1   -1   0   
+$EndComp
+Text GLabel 9500 900  1    50   Input ~ 0
+VCC
+Wire Wire Line
+	9500 1400 9500 1300
+Wire Wire Line
+	9500 1300 10150 1300
+Connection ~ 9500 1300
+Wire Wire Line
+	9500 1300 9500 1200
+Text GLabel 10150 1300 2    50   Input ~ 0
+VB
 $EndSCHEMATC

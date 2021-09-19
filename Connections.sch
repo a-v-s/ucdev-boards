@@ -61,22 +61,6 @@ Text GLabel 1550 3800 0    50   Input ~ 0
 PMOD_UART_GPIO3
 Text GLabel 1550 3900 0    50   Input ~ 0
 PMOD_UART_GPIO4
-Text GLabel 1500 4350 0    50   Input ~ 0
-PMOD_GPIO1
-Text GLabel 1500 4450 0    50   Input ~ 0
-PMOD_GPIO2
-Text GLabel 1500 4550 0    50   Input ~ 0
-PMOD_GPIO3
-Text GLabel 1500 4650 0    50   Input ~ 0
-PMOD_GPIO4
-Text GLabel 1500 4750 0    50   Input ~ 0
-PMOD_GPIO5
-Text GLabel 1500 4850 0    50   Input ~ 0
-PMOD_GPIO6
-Text GLabel 1500 4950 0    50   Input ~ 0
-PMOD_GPIO7
-Text GLabel 1500 5050 0    50   Input ~ 0
-PMOD_GPIO8
 Text GLabel 1750 900  2    50   Input ~ 0
 A4
 Text GLabel 1750 1000 2    50   Input ~ 0
@@ -125,4 +109,64 @@ Text GLabel 1600 2300 2    50   Input ~ 0
 B7
 Wire Wire Line
 	1550 3500 1700 3500
+Text GLabel 1600 2100 2    50   Input ~ 0
+B5
+Text GLabel 1600 2000 2    50   Input ~ 0
+B4
+Wire Wire Line
+	1600 2100 1500 2100
+Wire Wire Line
+	1600 2000 1500 2000
+Text GLabel 1800 1600 2    50   Input ~ 0
+B0
+Text GLabel 1800 1500 2    50   Input ~ 0
+B1
+Text GLabel 1800 1400 2    50   Input ~ 0
+B10
+Text GLabel 1800 1300 2    50   Input ~ 0
+B11
+Text GLabel 1700 3600 2    50   Input ~ 0
+C13
+Text GLabel 1700 3900 2    50   Input ~ 0
+B9
+Text GLabel 1700 3800 2    50   Input ~ 0
+B8
+Text GLabel 1700 3700 2    50   Input ~ 0
+B12
+Wire Wire Line
+	1550 3600 1700 3600
+Wire Wire Line
+	1700 3700 1550 3700
+Wire Wire Line
+	1550 3800 1700 3800
+Wire Wire Line
+	1700 3900 1550 3900
+Text GLabel 1600 2700 2    50   Input ~ 0
+A8
+Text GLabel 1600 2600 2    50   Input ~ 0
+B15
+Text GLabel 1600 2500 2    50   Input ~ 0
+B14
+Text GLabel 1600 2400 2    50   Input ~ 0
+B13
+Wire Wire Line
+	1600 2400 1500 2400
+Wire Wire Line
+	1500 2500 1600 2500
+Wire Wire Line
+	1600 2600 1500 2600
+Wire Wire Line
+	1500 2700 1600 2700
+Text GLabel 1650 4650 0    50   Input ~ 0
+USB_D-
+Text GLabel 1650 4750 0    50   Input ~ 0
+USB_D+
+Text GLabel 1750 4650 2    50   Input ~ 0
+A11
+Text GLabel 1750 4750 2    50   Input ~ 0
+A12
+Wire Wire Line
+	1750 4650 1650 4650
+Wire Wire Line
+	1650 4750 1750 4750
 $EndSCHEMATC

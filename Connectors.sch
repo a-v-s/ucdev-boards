@@ -25,17 +25,6 @@ Text GLabel 5950 2200 0    50   Input ~ 0
 GND
 Text GLabel 5950 2300 0    50   Input ~ 0
 VCC
-$Comp
-L Connector_Generic:Conn_02x06_Odd_Even PMOD1
-U 1 1 613DF13F
-P 8350 3050
-F 0 "PMOD1" H 8400 2525 50  0000 C CNN
-F 1 "Conn_02x06_Odd_Even" H 8400 2616 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Horizontal" H 8350 3050 50  0001 C CNN
-F 3 "~" H 8350 3050 50  0001 C CNN
-	1    8350 3050
-	1    0    0    1   
-$EndComp
 Text GLabel 6450 1800 2    50   Input ~ 0
 PMOD_I2C_GPIO1
 Text GLabel 6450 1900 2    50   Input ~ 0
@@ -118,10 +107,6 @@ Text GLabel 8650 2000 2    50   Input ~ 0
 PMOD_UART_GPIO3
 Text GLabel 8650 2100 2    50   Input ~ 0
 PMOD_UART_GPIO4
-Text GLabel 8150 3150 0    50   Input ~ 0
-GND
-Text GLabel 8150 3250 0    50   Input ~ 0
-VCC
 $Comp
 L Connector_Generic:Conn_02x06_Odd_Even PMOD4
 U 1 1 613F116D
@@ -133,33 +118,13 @@ F 3 "~" H 6150 2100 50  0001 C CNN
 	1    6150 2100
 	1    0    0    1   
 $EndComp
-Text GLabel 8650 3150 2    50   Input ~ 0
-GND
-Text GLabel 8650 3250 2    50   Input ~ 0
-VCC
-Text GLabel 8150 2750 0    50   Input ~ 0
-PMOD_GPIO1
-Text GLabel 8150 2850 0    50   Input ~ 0
-PMOD_GPIO2
-Text GLabel 8150 2950 0    50   Input ~ 0
-PMOD_GPIO3
-Text GLabel 8150 3050 0    50   Input ~ 0
-PMOD_GPIO4
-Text GLabel 8650 2750 2    50   Input ~ 0
-PMOD_GPIO5
-Text GLabel 8650 2850 2    50   Input ~ 0
-PMOD_GPIO6
-Text GLabel 8650 2950 2    50   Input ~ 0
-PMOD_GPIO7
-Text GLabel 8650 3050 2    50   Input ~ 0
-PMOD_GPIO8
 $Comp
 L Connector_Generic:Conn_02x05_Odd_Even JTAG1
 U 1 1 6141EDF9
 P 2250 6800
 F 0 "JTAG1" H 2300 7217 50  0000 C CNN
 F 1 "Conn_02x05_Odd_Even" H 2300 7126 50  0000 C CNN
-F 2 "Connector_PinSocket_1.27mm:PinSocket_2x05_P1.27mm_Vertical" H 2250 6800 50  0001 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical" H 2250 6800 50  0001 C CNN
 F 3 "~" H 2250 6800 50  0001 C CNN
 	1    2250 6800
 	1    0    0    -1  
@@ -172,14 +137,6 @@ Text GLabel 2050 6800 0    50   Input ~ 0
 GND
 Text GLabel 2050 7000 0    50   Input ~ 0
 GND
-Text GLabel 2550 6600 2    50   Input ~ 0
-JTMS
-Text GLabel 2550 6700 2    50   Input ~ 0
-JTCK
-Text GLabel 2550 6800 2    50   Input ~ 0
-JTDO
-Text GLabel 2550 6900 2    50   Input ~ 0
-JTDI
 Text GLabel 2550 7000 2    50   Input ~ 0
 ~RST
 $Comp
@@ -238,4 +195,12 @@ Text GLabel 4150 900  2    50   Input ~ 0
 5V
 Wire Wire Line
 	1350 1300 1800 1300
+Text GLabel 2550 6900 2    50   Input ~ 0
+JTDI
+Text GLabel 2550 6800 2    50   Input ~ 0
+JTDO
+Text GLabel 2550 6700 2    50   Input ~ 0
+JTCK
+Text GLabel 2550 6600 2    50   Input ~ 0
+JTMS
 $EndSCHEMATC
