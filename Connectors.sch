@@ -145,7 +145,7 @@ U 1 1 61752725
 P 1050 1100
 F 0 "J8" H 1107 1567 50  0000 C CNN
 F 1 "USB_B_Micro" H 1107 1476 50  0000 C CNN
-F 2 "Connector_USB:USB_Micro-B_Wuerth_629105150521" H 1200 1050 50  0001 C CNN
+F 2 "AvS_Connector:USB_Micro-B_XKB_U254-05XX-4BH806" H 1200 1050 50  0001 C CNN
 F 3 "~" H 1200 1050 50  0001 C CNN
 	1    1050 1100
 	1    0    0    -1  
@@ -203,4 +203,28 @@ Text GLabel 2550 6700 2    50   Input ~ 0
 JTCK
 Text GLabel 2550 6600 2    50   Input ~ 0
 JTMS
+Text GLabel 2550 5950 2    50   Input ~ 0
+JTDI
+Text GLabel 2550 5850 2    50   Input ~ 0
+JTDO
+Text GLabel 2550 5750 2    50   Input ~ 0
+JTCK
+Text GLabel 2550 5650 2    50   Input ~ 0
+JTMS
+Text GLabel 2450 5650 0    50   Input ~ 0
+SWDIO
+Text GLabel 2450 5750 0    50   Input ~ 0
+SWDCLK
+Text GLabel 2450 5850 0    50   Input ~ 0
+B3
+Text GLabel 2450 5950 0    50   Input ~ 0
+A15
+Wire Wire Line
+	2550 5650 2450 5650
+Wire Wire Line
+	2450 5750 2550 5750
+Wire Wire Line
+	2550 5850 2450 5850
+Wire Wire Line
+	2450 5950 2550 5950
 $EndSCHEMATC
