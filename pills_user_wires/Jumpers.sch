@@ -74,55 +74,55 @@ A2
 Text GLabel 1350 3250 2    50   Input ~ 0
 B2
 $Comp
-L Connector_Generic:Conn_02x08_Odd_Even PA_LO1
+L Connector_Generic:Conn_02x08_Odd_Even J9
 U 1 1 615E28F8
 P 1050 1250
-F 0 "PA_LO1" H 1100 1767 50  0000 C CNN
-F 1 "Conn_02x08_Odd_Even" H 1100 1676 50  0000 C CNN
+F 0 "J9" H 1100 1767 50  0000 C CNN
+F 1 "PA_LO" H 1100 1676 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 1050 1250 50  0001 C CNN
 F 3 "~" H 1050 1250 50  0001 C CNN
 	1    1050 1250
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x08_Odd_Even PA_HI1
+L Connector_Generic:Conn_02x08_Odd_Even J10
 U 1 1 615F9ABE
 P 1050 2300
-F 0 "PA_HI1" H 1100 2817 50  0000 C CNN
-F 1 "Conn_02x08_Odd_Even" H 1100 2726 50  0000 C CNN
+F 0 "J10" H 1100 2817 50  0000 C CNN
+F 1 "PA_HI" H 1100 2726 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 1050 2300 50  0001 C CNN
 F 3 "~" H 1050 2300 50  0001 C CNN
 	1    1050 2300
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x08_Odd_Even PB_LO1
+L Connector_Generic:Conn_02x08_Odd_Even J11
 U 1 1 615FAE0F
 P 1050 3350
-F 0 "PB_LO1" H 1100 3867 50  0000 C CNN
-F 1 "Conn_02x08_Odd_Even" H 1100 3776 50  0000 C CNN
+F 0 "J11" H 1100 3867 50  0000 C CNN
+F 1 "PB_LO" H 1100 3776 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 1050 3350 50  0001 C CNN
 F 3 "~" H 1050 3350 50  0001 C CNN
 	1    1050 3350
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x08_Odd_Even PB_HI1
+L Connector_Generic:Conn_02x08_Odd_Even J12
 U 1 1 61603ECF
 P 1050 4400
-F 0 "PB_HI1" H 1100 4917 50  0000 C CNN
-F 1 "Conn_02x08_Odd_Even" H 1100 4826 50  0000 C CNN
+F 0 "J12" H 1100 4917 50  0000 C CNN
+F 1 "PB_HI" H 1100 4826 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 1050 4400 50  0001 C CNN
 F 3 "~" H 1050 4400 50  0001 C CNN
 	1    1050 4400
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x03_Odd_Even USB_EN1
+L Connector_Generic:Conn_02x03_Odd_Even J13
 U 1 1 6162FAFE
 P 2450 2100
-F 0 "USB_EN1" H 2500 2417 50  0000 C CNN
-F 1 "Conn_02x03_Odd_Even" H 2500 2326 50  0000 C CNN
+F 0 "J13" H 2500 2417 50  0000 C CNN
+F 1 "USB_EN" H 2500 2326 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 2450 2100 50  0001 C CNN
 F 3 "~" H 2450 2100 50  0001 C CNN
 	1    2450 2100
