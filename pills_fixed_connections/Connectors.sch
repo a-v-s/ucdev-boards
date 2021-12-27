@@ -119,10 +119,10 @@ F 3 "~" H 6150 2100 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x05_Odd_Even JTAG1
+L Connector_Generic:Conn_02x05_Odd_Even J5
 U 1 1 6141EDF9
 P 2250 6800
-F 0 "JTAG1" H 2300 7217 50  0000 C CNN
+F 0 "J5" H 2300 7217 50  0000 C CNN
 F 1 "Conn_02x05_Odd_Even" H 2300 7126 50  0000 C CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical" H 2250 6800 50  0001 C CNN
 F 3 "~" H 2250 6800 50  0001 C CNN
@@ -227,4 +227,49 @@ Wire Wire Line
 	2550 5850 2450 5850
 Wire Wire Line
 	2450 5950 2550 5950
+Text GLabel 4150 5750 0    50   Input ~ 0
+UART_TX
+Text GLabel 4150 5850 0    50   Input ~ 0
+UART_RX
+Text GLabel 4150 5950 0    50   Input ~ 0
+VCC
+Text GLabel 4150 5650 0    50   Input ~ 0
+GND
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 61CA836C
+P 4350 5750
+AR Path="/61CA836C" Ref="J?"  Part="1" 
+AR Path="/613F341A/61CA836C" Ref="J?"  Part="1" 
+AR Path="/614182C0/61CA836C" Ref="J1"  Part="1" 
+F 0 "J1" V 4222 5930 50  0000 L CNN
+F 1 "Conn_01x04" V 4313 5930 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 4350 5750 50  0001 C CNN
+F 3 "~" H 4350 5750 50  0001 C CNN
+	1    4350 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 61CA840D
+P 4350 6750
+AR Path="/61CA840D" Ref="J?"  Part="1" 
+AR Path="/613F341A/61CA840D" Ref="J?"  Part="1" 
+AR Path="/614182C0/61CA840D" Ref="J4"  Part="1" 
+F 0 "J4" V 4222 6930 50  0000 L CNN
+F 1 "Conn_01x04" V 4313 6930 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 4350 6750 50  0001 C CNN
+F 3 "~" H 4350 6750 50  0001 C CNN
+	1    4350 6750
+	1    0    0    -1  
+$EndComp
+Text GLabel 4150 6650 0    50   Input ~ 0
+SWDIO
+Text GLabel 4150 6750 0    50   Input ~ 0
+GND
+Text GLabel 4150 6850 0    50   Input ~ 0
+SWDCLK
+Text GLabel 4150 6950 0    50   Input ~ 0
+VCC
+NoConn ~ 2050 6900
 $EndSCHEMATC

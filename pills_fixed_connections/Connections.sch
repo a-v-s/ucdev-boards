@@ -169,4 +169,16 @@ Wire Wire Line
 	1750 4650 1650 4650
 Wire Wire Line
 	1650 4750 1750 4750
+Text GLabel 1800 5400 2    50   Input ~ 0
+A9
+Text GLabel 1800 5500 2    50   Input ~ 0
+A10
+Text GLabel 1750 5400 0    50   Input ~ 0
+UART_TX
+Text GLabel 1750 5500 0    50   Input ~ 0
+UART_RX
+Wire Wire Line
+	1800 5400 1750 5400
+Wire Wire Line
+	1750 5500 1800 5500
 $EndSCHEMATC
