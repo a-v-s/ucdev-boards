@@ -262,4 +262,34 @@ Text GLabel 5150 2800 0    50   Input ~ 0
 BMP_ADDR
 Text GLabel 5150 2900 0    50   Input ~ 0
 BMP_I2C
+Text GLabel 5150 5400 0    50   Input ~ 0
+LIS3D_ADDR
+Text GLabel 5150 5500 0    50   Input ~ 0
+LIS3D_I2C
+Text GLabel 5150 4100 0    50   Input ~ 0
+MPU_ADDR
+Text GLabel 5150 4200 0    50   Input ~ 0
+MPU_I2C
+NoConn ~ 5950 3900
+NoConn ~ 5950 4000
+Text GLabel 5950 3800 2    50   Input ~ 0
+MPU_INT
+Text GLabel 5950 5100 2    50   Input ~ 0
+LIS3D_INT1
+Text GLabel 5950 5200 2    50   Input ~ 0
+LIS3D_INT2
+Text Notes 5900 1450 0    50   ~ 0
+ADXL Interrupts are Push-Pull\n
+Text Notes 6350 3850 0    50   ~ 0
+totem pole or open-drain\ntotem pole = push-pull\n
+Text Notes 6450 5200 0    50   ~ 0
+Cannot find wether push-pull or open drain
+Text Notes 1950 1150 0    50   ~ 0
+Open Drain
+Text Notes 4000 1150 0    50   ~ 0
+Open Drain
+Text Notes 4000 1350 0    50   ~ 0
+Open Drain
+Text Notes 3200 3750 0    50   ~ 0
+TODO
 $EndSCHEMATC

@@ -80,4 +80,26 @@ F 3 "~" H 1300 2900 50  0001 C CNN
 	1    1300 2900
 	1    0    0    -1  
 $EndComp
+Text GLabel 4600 1400 2    50   Input ~ 0
+PCF8563_~INT
+Text GLabel 4600 1500 2    50   Input ~ 0
+PCF8563_CLKOUT
+Text GLabel 4600 1250 2    50   Input ~ 0
+LM75B_OS
+Text GLabel 4600 1100 2    50   Input ~ 0
+CCS811_~RESET
+Text GLabel 4600 1000 2    50   Input ~ 0
+CSS811_INT
+Text GLabel 4600 1650 2    50   Input ~ 0
+ADXL_INT1
+Text GLabel 4600 1750 2    50   Input ~ 0
+ADXL_INT2
+Text GLabel 4600 1900 2    50   Input ~ 0
+MPU_INT
+Text GLabel 4600 2050 2    50   Input ~ 0
+LIS3D_INT1
+Text GLabel 4600 2150 2    50   Input ~ 0
+LIS3D_INT2
+Text GLabel 4600 900  2    50   Input ~ 0
+CCS811_~WAKE
 $EndSCHEMATC
