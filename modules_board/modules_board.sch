@@ -292,4 +292,60 @@ Text Notes 4000 1350 0    50   ~ 0
 Open Drain
 Text Notes 3200 3750 0    50   ~ 0
 TODO
+Text GLabel 3950 4100 2    50   Input ~ 0
+GND
+Text GLabel 3150 3900 0    50   Input ~ 0
+GND
+Text GLabel 3150 4000 0    50   Input ~ 0
+GND
+Text GLabel 3150 4100 0    50   Input ~ 0
+GND
+Text Notes 3750 2400 0    50   ~ 0
+int is open drain\n
+Text Notes 5900 4100 0    50   ~ 0
+What to do with FSYNC?
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 61D117CC
+P 1250 7150
+F 0 "H4" H 1350 7196 50  0000 L CNN
+F 1 "MountingHole" H 1350 7105 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 1250 7150 50  0001 C CNN
+F 3 "~" H 1250 7150 50  0001 C CNN
+	1    1250 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 61D12EA1
+P 1250 6900
+F 0 "H3" H 1350 6946 50  0000 L CNN
+F 1 "MountingHole" H 1350 6855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 1250 6900 50  0001 C CNN
+F 3 "~" H 1250 6900 50  0001 C CNN
+	1    1250 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 61D131A0
+P 1250 6650
+F 0 "H2" H 1350 6696 50  0000 L CNN
+F 1 "MountingHole" H 1350 6605 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 1250 6650 50  0001 C CNN
+F 3 "~" H 1250 6650 50  0001 C CNN
+	1    1250 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 61D131F6
+P 1250 6400
+F 0 "H1" H 1350 6446 50  0000 L CNN
+F 1 "MountingHole" H 1350 6355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 1250 6400 50  0001 C CNN
+F 3 "~" H 1250 6400 50  0001 C CNN
+	1    1250 6400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
