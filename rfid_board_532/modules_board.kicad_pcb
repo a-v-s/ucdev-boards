@@ -61,7 +61,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "pmod_rfid_522_663_v0.1")
+      (outputdirectory "../gerber/pmod_rfid_532_straight_up_v0.1")
     )
   )
 

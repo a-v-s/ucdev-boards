@@ -336,11 +336,11 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (global_label "PMOD_UART_RESER" (shape input) (at 40.64 57.15 0) (fields_autoplaced)
+  (global_label "PMOD_UART_RESET" (shape input) (at 40.64 57.15 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 71d21f4e-8d22-4086-b50b-8852524a46d4)
-    (property "Intersheet-verwijzingen" "${INTERSHEET_REFS}" (id 0) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
+    (property "Intersheet-verwijzingen" "${INTERSHEET_REFS}" (id 0) (at 60.6232 57.0706 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
   (global_label "PMOD_SPI_INT" (shape input) (at 40.64 81.28 0) (fields_autoplaced)
@@ -638,7 +638,7 @@
     )
   )
 
-  (symbol (lib_id "Connector_Generic:Conn_02x06_Odd_Even") (at 33.02 30.48 0)
+  (symbol (lib_id "Connector_Generic:Conn_02x06_Odd_Even") (at 33.02 30.48 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061c4f2ed)
     (property "Reference" "J1" (id 0) (at 34.29 19.8882 0))
@@ -663,7 +663,7 @@
     (pin "9" (uuid 8e588137-62f3-47a6-aaa1-4defdc155d0e))
   )
 
-  (symbol (lib_id "Connector_Generic:Conn_02x06_Odd_Even") (at 33.02 52.07 0)
+  (symbol (lib_id "Connector_Generic:Conn_02x06_Odd_Even") (at 33.02 52.07 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061caec8f)
     (property "Reference" "J2" (id 0) (at 34.29 41.4782 0))
@@ -688,7 +688,7 @@
     (pin "9" (uuid 0df48bc6-7d5c-407e-91e0-beac6179c167))
   )
 
-  (symbol (lib_id "Connector_Generic:Conn_02x06_Odd_Even") (at 33.02 73.66 0)
+  (symbol (lib_id "Connector_Generic:Conn_02x06_Odd_Even") (at 33.02 73.66 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061cb1a6c)
     (property "Reference" "J3" (id 0) (at 34.29 63.0682 0))
@@ -713,7 +713,7 @@
     (pin "9" (uuid 74408a26-5cb9-4f36-a017-54c9e9361a20))
   )
 
-  (symbol (lib_id "Connector_Generic:Conn_02x06_Odd_Even") (at 95.25 30.48 0)
+  (symbol (lib_id "Connector_Generic:Conn_02x06_Odd_Even") (at 95.25 30.48 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061ce5d36)
     (property "Reference" "J7" (id 0) (at 96.52 19.8882 0))
@@ -738,7 +738,7 @@
     (pin "9" (uuid de2abd87-c0dd-4a89-8323-ef637d4d52b4))
   )
 
-  (symbol (lib_id "Connector_Generic:Conn_02x06_Odd_Even") (at 95.25 52.07 0)
+  (symbol (lib_id "Connector_Generic:Conn_02x06_Odd_Even") (at 95.25 52.07 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061ce5d46)
     (property "Reference" "J8" (id 0) (at 96.52 41.4782 0))
@@ -763,7 +763,7 @@
     (pin "9" (uuid 14d8d3ed-7817-49b0-a6ec-bb487497b104))
   )
 
-  (symbol (lib_id "Connector_Generic:Conn_02x06_Odd_Even") (at 95.25 73.66 0)
+  (symbol (lib_id "Connector_Generic:Conn_02x06_Odd_Even") (at 95.25 73.66 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061ce5d54)
     (property "Reference" "J9" (id 0) (at 96.52 63.0682 0))
