@@ -61,7 +61,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "ucdev_fixed_pill_1.1")
+      (outputdirectory "../gerber/ucdev_fixed_pill_1.2")
     )
   )
 
