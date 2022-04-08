@@ -1,0 +1,89 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 922058ca-d09a-45fd-8394-05f3e2c1e03a)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 63.5 25.4) (size 25.4 25.4) (fields_autoplaced)
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-0000614172cf)
+    (property "Sheet name" "Connections" (id 0) (at 63.5 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "Connections.kicad_sch" (id 1) (at 63.5 51.3846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 101.6 25.4) (size 25.4 25.4) (fields_autoplaced)
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-0000614182c0)
+    (property "Sheet name" "Connectors" (id 0) (at 101.6 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "Connectors.kicad_sch" (id 1) (at 101.6 51.3846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 63.5 63.5) (size 26.67 25.4) (fields_autoplaced)
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-00006141b6c3)
+    (property "Sheet name" "Jumpers" (id 0) (at 63.5 62.7884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "Jumpers.kicad_sch" (id 1) (at 63.5 89.4846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/00000000-0000-0000-0000-0000614172cf" (page "3"))
+    (path "/00000000-0000-0000-0000-00006141b6c3" (page "4"))
+    (path "/00000000-0000-0000-0000-0000614182c0" (page "5"))
+  )
+
+  (symbol_instances
+    (path "/00000000-0000-0000-0000-0000614182c0/1b8bd719-4212-4f55-95d2-dd99fe02df60"
+      (reference "H1") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_4.3mm_M4_Pad_Via")
+    )
+    (path "/00000000-0000-0000-0000-0000614182c0/f249c2ca-9875-4c92-aeb9-3c4a8a5a3f2a"
+      (reference "H2") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_4.3mm_M4_Pad_Via")
+    )
+    (path "/00000000-0000-0000-0000-0000614182c0/77ba433e-3940-4864-82e2-e016c567f196"
+      (reference "H3") (unit 1) (value "~") (footprint "MountingHole:MountingHole_4.3mm_M4_Pad_Via")
+    )
+    (path "/00000000-0000-0000-0000-0000614182c0/fed04791-33ad-4aea-9b6e-7c1c8439f2e1"
+      (reference "H4") (unit 1) (value "~") (footprint "MountingHole:MountingHole_4.3mm_M4_Pad_Via")
+    )
+    (path "/00000000-0000-0000-0000-0000614182c0/3b1e5992-bce2-4b1f-8e4c-41b77f29a20f"
+      (reference "J1") (unit 1) (value "Conn_01x02") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-0000614182c0/00000000-0000-0000-0000-000061717b36"
+      (reference "J4") (unit 1) (value "Conn_02x04_Odd_Even") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-0000614182c0/00000000-0000-0000-0000-000061710802"
+      (reference "J5") (unit 1) (value "Conn_02x04_Odd_Even") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-0000614182c0/00000000-0000-0000-0000-00006172a07e"
+      (reference "J6") (unit 1) (value "Conn_02x04_Odd_Even") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-0000614182c0/00000000-0000-0000-0000-0000613df13f"
+      (reference "PMOD1") (unit 1) (value "Conn_02x06_Odd_Even") (footprint "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-0000614182c0/00000000-0000-0000-0000-0000613e3ee5"
+      (reference "PMOD2") (unit 1) (value "Conn_02x06_Odd_Even") (footprint "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-0000614182c0/00000000-0000-0000-0000-0000613e6350"
+      (reference "PMOD3") (unit 1) (value "Conn_02x06_Odd_Even") (footprint "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Horizontal")
+    )
+  )
+)
