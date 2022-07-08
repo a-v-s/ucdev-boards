@@ -895,7 +895,7 @@
   (gr_text "IO1" (at 106.68 34.925 90) (layer "F.SilkS") (tstamp 351204dc-db21-48de-a66f-2d0668982e83)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "PMOD MASTER BOARD v0.1\nhttps://www.blaatschaap.be" (at 111.76 49.53) (layer "F.SilkS") (tstamp 3814f85c-d121-4e1b-b79d-144a6b78b6e8)
+  (gr_text "PMOD BASE BOARD v0.1\nhttps://www.blaatschaap.be" (at 111.76 49.53) (layer "F.SilkS") (tstamp 3814f85c-d121-4e1b-b79d-144a6b78b6e8)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_text "CTS" (at 83.82 38.735 90) (layer "F.SilkS") (tstamp 39073689-38e7-4991-be8b-e62e5ab70925)
