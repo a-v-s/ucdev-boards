@@ -61,7 +61,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "../gerber/pmod_base_esp32/v0.1/")
+      (outputdirectory "../gerber/pmod_base_hk-w801/v0.1/")
     )
   )
 
@@ -683,9 +683,9 @@
     (fp_line (start 1 -0.625) (end 1 0.625) (layer "F.Fab") (width 0.1) (tstamp 493dd281-b95c-424b-b207-dd23c8efdb06))
     (fp_line (start 1 0.625) (end -1 0.625) (layer "F.Fab") (width 0.1) (tstamp 54b7682f-f0a7-4026-83ff-db6a20bd5c5c))
     (fp_line (start -1 -0.625) (end 1 -0.625) (layer "F.Fab") (width 0.1) (tstamp eb1cd2a8-5238-4431-822a-5f408311588a))
-    (pad "1" smd roundrect (at -1 0) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333)
+    (pad "1" smd roundrect (at -1 0) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2083333333)
       (net 38 "Net-(J1-Pad2)") (pintype "passive") (tstamp 0ff38d45-2687-4d47-8230-90a2bfad5eaa))
-    (pad "2" smd roundrect (at 1 0) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333)
+    (pad "2" smd roundrect (at 1 0) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2083333333)
       (net 10 "VCC") (pintype "passive") (tstamp 38b2d1e2-72b9-41fb-b89f-9e8aecf44933))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))

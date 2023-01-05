@@ -1449,7 +1449,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 260.096 138.684 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 14aa6c92-136f-474a-bd86-0aa224181113)
-    (property "Reference" "J?" (id 0) (at 262.89 138.6839 0)
+    (property "Reference" "J5" (id 0) (at 262.89 138.6839 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x04" (id 1) (at 262.89 141.2239 0)
@@ -1702,7 +1702,7 @@
       (reference "J4") (unit 1) (value "Conn_02x05_Odd_Even") (footprint "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical")
     )
     (path "/14aa6c92-136f-474a-bd86-0aa224181113"
-      (reference "J?") (unit 1) (value "Conn_01x04") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
+      (reference "J5") (unit 1) (value "Conn_01x04") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-0000613e3ee5"
       (reference "PMOD1") (unit 1) (value "Conn_02x06_Odd_Even") (footprint "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Horizontal")

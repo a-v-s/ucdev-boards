@@ -61,7 +61,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "../gerber/pmod_base_esp32/v0.1/")
+      (outputdirectory "../gerber/pmod_base_hk-w806/v0.1/")
     )
   )
 
