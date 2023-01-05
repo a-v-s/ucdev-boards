@@ -349,6 +349,12 @@
   )
 
 
+  (text "ESP32-C3 has three strapping pins:\n• GPIO2\n• GPIO8\n• GPIO9"
+    (at 136.906 28.448 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 48aaa3c9-5c02-4ce0-9972-65aee0e98aef)
+  )
+
   (global_label "GND" (shape input) (at 217.424 80.518 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 014d13cd-26ad-4d0e-86ad-a43b541cab14)
