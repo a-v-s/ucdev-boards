@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "pmod_pills_baseboard-rescue")(type "Legacy")(uri "${KIPRJMOD}/pmod_pills_baseboard-rescue.lib")(options "")(descr ""))
+)
