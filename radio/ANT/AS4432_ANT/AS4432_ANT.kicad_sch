@@ -789,7 +789,7 @@
     (property "Value" "AS4432-SMD" (at 87.3634 24.13 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "AvS_Modules:AS4432-SMD" (at 1.524 -5.08 0)
+    (property "Footprint" "AvS_Modules:RF4xxx" (at 1.524 -5.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1807310932_Chengdu-Ashining-Tech-AS4432-SMD_C89187.pdf" (at 1.524 -5.08 0)

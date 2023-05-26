@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.0,
+          "height": 0.8,
+          "width": 0.4
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -56,7 +56,20 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|105960000|40530000|c3d89877-bbed-48bf-b145-443442a031cb|5910666f-549f-488d-973b-bdeaa609e295",
+        "clearance|105960000|40530000|c3d89877-bbed-48bf-b145-443442a031cb|755a2f3c-d42f-4d58-bcd0-b8a7560c27fa",
+        "clearance|105960000|42530000|05231a43-35dc-465d-8190-c111ea149b0e|8c6b33da-6de1-4f19-80da-6e862ca7aa31",
+        "clearance|105960000|42530000|05231a43-35dc-465d-8190-c111ea149b0e|f9be6e55-6be7-4759-9c42-62e8b3bd676d",
+        "clearance|105960000|44530000|a6c86f4b-f3e3-4ee6-a7d5-09a0bfe4c43e|5819d0d4-e035-4faa-90ea-1fa48225c7a8",
+        "clearance|105960000|44530000|a6c86f4b-f3e3-4ee6-a7d5-09a0bfe4c43e|944b00f6-101a-4d00-8dd5-859598f4b58d",
+        "clearance|110960000|42530000|80b45b43-25be-4d49-8ebe-5234975b54bf|3b585abc-a662-4cfe-a90d-44e5e3ae43ba",
+        "clearance|110960000|42530000|80b45b43-25be-4d49-8ebe-5234975b54bf|8c6b33da-6de1-4f19-80da-6e862ca7aa31",
+        "clearance|110960000|44530000|aef37af5-5c43-4636-8f57-6f0f29c99535|944b00f6-101a-4d00-8dd5-859598f4b58d",
+        "clearance|110960000|44530000|aef37af5-5c43-4636-8f57-6f0f29c99535|9bf9dbde-6e3a-46b2-8bfd-78d7baa67e31",
+        "clearance|115000000|40530000|25497696-1422-4b19-9738-adccad54b8b1|755a2f3c-d42f-4d58-bcd0-b8a7560c27fa",
+        "clearance|117260000|40530000|33aa1378-b459-45d2-a5d4-885c07594a03|755a2f3c-d42f-4d58-bcd0-b8a7560c27fa"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -408,7 +421,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "RFM9xW_868.kicad_pro",
+    "filename": "AS4432_868.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -456,11 +469,11 @@
     "netclass_patterns": [
       {
         "netclass": "Ant",
-        "pattern": "*AE*"
+        "pattern": "*ANT*"
       },
       {
         "netclass": "Ant",
-        "pattern": "*ANT*"
+        "pattern": "*AE1*"
       }
     ]
   },

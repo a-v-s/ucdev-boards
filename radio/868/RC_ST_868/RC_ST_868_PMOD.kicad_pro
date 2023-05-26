@@ -46,7 +46,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.5
+          "min_clearance": 0.19999999999999998
         }
       },
       "diff_pair_dimensions": [
@@ -408,7 +408,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "RFM9xW_868.kicad_pro",
+    "filename": "RC_ST_868_PMOD.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -456,7 +456,7 @@
     "netclass_patterns": [
       {
         "netclass": "Ant",
-        "pattern": "*AE*"
+        "pattern": "*AE1*"
       },
       {
         "netclass": "Ant",

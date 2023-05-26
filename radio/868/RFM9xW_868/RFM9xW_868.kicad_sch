@@ -1073,7 +1073,7 @@
     (pin "8" (uuid fa2c9b17-8cfd-423f-8598-94259f67e4c2))
     (pin "9" (uuid 3a89c9ab-3c01-467f-8ecb-d10c4f4a808b))
     (instances
-      (project "RFM9xW_ANT"
+      (project "RFM9xW_868"
         (path "/f21933a3-dbb8-48a1-a87f-8295a762e289"
           (reference "J1") (unit 1)
         )
@@ -1098,7 +1098,7 @@
     )
     (pin "1" (uuid d8e6a238-854b-410e-8047-be7445213c08))
     (instances
-      (project "RFM9xW_ANT"
+      (project "RFM9xW_868"
         (path "/f21933a3-dbb8-48a1-a87f-8295a762e289"
           (reference "#PWR04") (unit 1)
         )
@@ -1123,7 +1123,7 @@
     )
     (pin "1" (uuid b4d87b92-41bb-4284-a02f-55a2a0e3b0ff))
     (instances
-      (project "RFM9xW_ANT"
+      (project "RFM9xW_868"
         (path "/f21933a3-dbb8-48a1-a87f-8295a762e289"
           (reference "#PWR013") (unit 1)
         )
@@ -1149,7 +1149,7 @@
     (pin "1" (uuid ffb93008-fd63-4b3d-ba7b-244ec3c0c746))
     (pin "2" (uuid f2bdc594-eafa-4d8c-ba47-4d564f32e383))
     (instances
-      (project "RFM9xW_ANT"
+      (project "RFM9xW_868"
         (path "/f21933a3-dbb8-48a1-a87f-8295a762e289"
           (reference "JP2") (unit 1)
         )
@@ -1175,7 +1175,7 @@
     (pin "1" (uuid 7b5e040a-ea7e-407b-88a1-577bdd7aa243))
     (pin "2" (uuid ceb47aba-2106-44f5-bfba-5cdaa8d5a56b))
     (instances
-      (project "RFM9xW_ANT"
+      (project "RFM9xW_868"
         (path "/f21933a3-dbb8-48a1-a87f-8295a762e289"
           (reference "R1") (unit 1)
         )
@@ -1192,7 +1192,7 @@
     (property "Value" "Antenna" (at 145.796 20.1929 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "AvS_Antenna:Helix_in_Hole" (at 142.748 18.288 0)
+    (property "Footprint" "RF_Antenna:Texas_SWRA416_868MHz_915MHz" (at 142.748 18.288 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 142.748 18.288 0)
@@ -1200,7 +1200,7 @@
     )
     (pin "1" (uuid 0a74d369-82be-4821-a3af-21823a2744af))
     (instances
-      (project "RFM9xW_ANT"
+      (project "RFM9xW_868"
         (path "/f21933a3-dbb8-48a1-a87f-8295a762e289"
           (reference "AE1") (unit 1)
         )
@@ -1225,7 +1225,7 @@
     )
     (pin "1" (uuid 6e3df223-ee4a-45b6-8834-f2bf8dc1c935))
     (instances
-      (project "RFM9xW_ANT"
+      (project "RFM9xW_868"
         (path "/f21933a3-dbb8-48a1-a87f-8295a762e289"
           (reference "#PWR02") (unit 1)
         )
@@ -1251,7 +1251,7 @@
     (pin "1" (uuid 094fe643-7495-411d-b875-9eca69b9c525))
     (pin "2" (uuid fa2d839c-6222-42b0-8bd9-0f377a240c25))
     (instances
-      (project "RFM9xW_ANT"
+      (project "RFM9xW_868"
         (path "/f21933a3-dbb8-48a1-a87f-8295a762e289"
           (reference "M2") (unit 1)
         )
@@ -1277,7 +1277,7 @@
     (pin "1" (uuid 6de119a4-fbc9-4d8f-9beb-f119e61b0354))
     (pin "2" (uuid ab108907-27a3-40c1-b59b-7804f52b3ce4))
     (instances
-      (project "RFM9xW_ANT"
+      (project "RFM9xW_868"
         (path "/f21933a3-dbb8-48a1-a87f-8295a762e289"
           (reference "M3") (unit 1)
         )
@@ -1302,7 +1302,7 @@
     )
     (pin "1" (uuid b3d9d4e2-9737-4afd-bd53-c07122fbc846))
     (instances
-      (project "RFM9xW_ANT"
+      (project "RFM9xW_868"
         (path "/f21933a3-dbb8-48a1-a87f-8295a762e289"
           (reference "#PWR011") (unit 1)
         )
@@ -1327,7 +1327,7 @@
     )
     (pin "1" (uuid 406ba700-c2ff-4f1e-9da8-3085007e1dc3))
     (instances
-      (project "RFM9xW_ANT"
+      (project "RFM9xW_868"
         (path "/f21933a3-dbb8-48a1-a87f-8295a762e289"
           (reference "#PWR08") (unit 1)
         )
@@ -1352,7 +1352,7 @@
     )
     (pin "1" (uuid 3e95062c-63d8-4138-9e31-2dc825de471e))
     (instances
-      (project "RFM9xW_ANT"
+      (project "RFM9xW_868"
         (path "/f21933a3-dbb8-48a1-a87f-8295a762e289"
           (reference "#PWR06") (unit 1)
         )
@@ -1377,7 +1377,7 @@
     )
     (pin "1" (uuid 171ae3c5-9076-4219-9950-2f1776c852f8))
     (instances
-      (project "RFM9xW_ANT"
+      (project "RFM9xW_868"
         (path "/f21933a3-dbb8-48a1-a87f-8295a762e289"
           (reference "#PWR07") (unit 1)
         )
@@ -1403,7 +1403,7 @@
     (pin "1" (uuid fb9ef27a-9d37-4591-8183-30a498d5a528))
     (pin "2" (uuid 246f37d2-58b5-49be-a371-da2b6977c17d))
     (instances
-      (project "RFM9xW_ANT"
+      (project "RFM9xW_868"
         (path "/f21933a3-dbb8-48a1-a87f-8295a762e289"
           (reference "C1") (unit 1)
         )
@@ -1429,7 +1429,7 @@
     (pin "1" (uuid 2adbafec-8f75-478e-a1c7-ce67f7f159c3))
     (pin "2" (uuid f32cd79b-93b7-4ced-850b-d3f60f366431))
     (instances
-      (project "RFM9xW_ANT"
+      (project "RFM9xW_868"
         (path "/f21933a3-dbb8-48a1-a87f-8295a762e289"
           (reference "M1") (unit 1)
         )
@@ -1454,7 +1454,7 @@
     )
     (pin "1" (uuid 2cf92e56-ce97-417c-9d8d-52799a5c14b7))
     (instances
-      (project "RFM9xW_ANT"
+      (project "RFM9xW_868"
         (path "/f21933a3-dbb8-48a1-a87f-8295a762e289"
           (reference "#PWR05") (unit 1)
         )
@@ -1481,7 +1481,7 @@
     (pin "2" (uuid e1b7c4a2-44c8-46c9-b0f7-39e3a7630ce7))
     (pin "3" (uuid c8876ca4-d0e6-44ff-8e3d-ddf04556bbb8))
     (instances
-      (project "RFM9xW_ANT"
+      (project "RFM9xW_868"
         (path "/f21933a3-dbb8-48a1-a87f-8295a762e289"
           (reference "JP1") (unit 1)
         )
@@ -1521,7 +1521,7 @@
     (pin "8" (uuid 409daabe-ee2f-4a56-88ea-90d0d297161a))
     (pin "9" (uuid 904ae5b7-22c0-4593-a1be-de50d6303e23))
     (instances
-      (project "RFM9xW_ANT"
+      (project "RFM9xW_868"
         (path "/f21933a3-dbb8-48a1-a87f-8295a762e289"
           (reference "U1") (unit 1)
         )
@@ -1546,7 +1546,7 @@
     )
     (pin "1" (uuid f16f7254-6e24-4075-abcb-026ceb6bf9cb))
     (instances
-      (project "RFM9xW_ANT"
+      (project "RFM9xW_868"
         (path "/f21933a3-dbb8-48a1-a87f-8295a762e289"
           (reference "#PWR010") (unit 1)
         )
@@ -1578,7 +1578,7 @@
     (pin "7" (uuid 0f7801cb-9f92-418b-b6b4-909fca69e5b8))
     (pin "8" (uuid 81062dbe-8405-4f8c-9e5c-248000e9b785))
     (instances
-      (project "RFM9xW_ANT"
+      (project "RFM9xW_868"
         (path "/f21933a3-dbb8-48a1-a87f-8295a762e289"
           (reference "U2") (unit 1)
         )
@@ -1603,7 +1603,7 @@
     )
     (pin "1" (uuid 516faf83-42ef-4216-81f7-a703b1368fbb))
     (instances
-      (project "RFM9xW_ANT"
+      (project "RFM9xW_868"
         (path "/f21933a3-dbb8-48a1-a87f-8295a762e289"
           (reference "#PWR014") (unit 1)
         )
@@ -1628,7 +1628,7 @@
     )
     (pin "1" (uuid 6aff976a-6a2a-4c1c-af03-09297e5a7b8a))
     (instances
-      (project "RFM9xW_ANT"
+      (project "RFM9xW_868"
         (path "/f21933a3-dbb8-48a1-a87f-8295a762e289"
           (reference "#PWR03") (unit 1)
         )
@@ -1653,7 +1653,7 @@
     )
     (pin "1" (uuid 4f4c7413-b10b-457b-93c0-a3737b508a54))
     (instances
-      (project "RFM9xW_ANT"
+      (project "RFM9xW_868"
         (path "/f21933a3-dbb8-48a1-a87f-8295a762e289"
           (reference "#PWR012") (unit 1)
         )
@@ -1678,7 +1678,7 @@
     )
     (pin "1" (uuid 649eb7c7-7994-4526-a816-0908ec078c56))
     (instances
-      (project "RFM9xW_ANT"
+      (project "RFM9xW_868"
         (path "/f21933a3-dbb8-48a1-a87f-8295a762e289"
           (reference "#PWR01") (unit 1)
         )
@@ -1704,7 +1704,7 @@
     (pin "1" (uuid 7550faae-6127-4b0b-ba22-744b1b44b45c))
     (pin "2" (uuid 28761a50-dddb-4fb1-9664-91e59f8df1fc))
     (instances
-      (project "RFM9xW_ANT"
+      (project "RFM9xW_868"
         (path "/f21933a3-dbb8-48a1-a87f-8295a762e289"
           (reference "R2") (unit 1)
         )
@@ -1730,7 +1730,7 @@
     (pin "1" (uuid 0808c942-1058-4467-8567-325b2175ddd6))
     (pin "2" (uuid b3eca9b4-418c-4f86-aad5-04fc62292f31))
     (instances
-      (project "RFM9xW_ANT"
+      (project "RFM9xW_868"
         (path "/f21933a3-dbb8-48a1-a87f-8295a762e289"
           (reference "C2") (unit 1)
         )
@@ -1755,7 +1755,7 @@
     )
     (pin "1" (uuid 4431d6f4-0b68-4c3b-990c-b873fc1b5b8d))
     (instances
-      (project "RFM9xW_ANT"
+      (project "RFM9xW_868"
         (path "/f21933a3-dbb8-48a1-a87f-8295a762e289"
           (reference "#PWR09") (unit 1)
         )
