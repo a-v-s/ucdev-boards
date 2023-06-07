@@ -1952,7 +1952,7 @@
     (property "Value" "SW_Push" (at 46.736 161.9504 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Button_Switch_SMD:SW_SPST_TL3305A" (at 46.736 161.798 0)
+    (property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342" (at 46.736 161.798 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 46.736 161.798 0)
