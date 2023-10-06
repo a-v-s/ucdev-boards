@@ -832,35 +832,6 @@
     )
   )
 
-  (symbol (lib_id "Mechanical:MountingHole") (at 200.66 144.78 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 5824c085-88c6-4767-a208-2298b2bf9173)
-    (property "Reference" "H1" (at 203.2 143.5099 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "~" (at 203.2 146.0499 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_2mm" (at 200.66 144.78 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 200.66 144.78 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "pmod_battery_power"
-        (path "/01f82238-6335-48fe-8b0a-6853e227345a"
-          (reference "H1") (unit 1)
-        )
-      )
-      (project "m590"
-        (path "/1d6e0379-077a-4c1a-9e5b-8cca83e0dbbe/5480c2b4-295a-4c48-ae29-91535f8fd021"
-          (reference "H5") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Connector_Generic:Conn_02x06_Odd_Even") (at 46.736 55.372 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 603dae79-5abb-4997-80d7-83a0f6003c3a)
@@ -1008,93 +979,6 @@
       (project "m590"
         (path "/1d6e0379-077a-4c1a-9e5b-8cca83e0dbbe/5480c2b4-295a-4c48-ae29-91535f8fd021"
           (reference "H2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 200.66 149.86 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid a99be580-3728-40f9-a711-be0ed2300b60)
-    (property "Reference" "H2" (at 203.2 148.5899 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "~" (at 203.2 151.1299 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_2mm" (at 200.66 149.86 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 200.66 149.86 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "pmod_battery_power"
-        (path "/01f82238-6335-48fe-8b0a-6853e227345a"
-          (reference "H2") (unit 1)
-        )
-      )
-      (project "m590"
-        (path "/1d6e0379-077a-4c1a-9e5b-8cca83e0dbbe/5480c2b4-295a-4c48-ae29-91535f8fd021"
-          (reference "H6") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 191.77 149.86 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid c35ac5b5-024a-4fcf-ac24-5b4bff923629)
-    (property "Reference" "H2" (at 194.31 148.5899 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "~" (at 194.31 151.1299 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_2mm" (at 191.77 149.86 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 191.77 149.86 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "pmod_battery_power"
-        (path "/01f82238-6335-48fe-8b0a-6853e227345a"
-          (reference "H2") (unit 1)
-        )
-      )
-      (project "m590"
-        (path "/1d6e0379-077a-4c1a-9e5b-8cca83e0dbbe/5480c2b4-295a-4c48-ae29-91535f8fd021"
-          (reference "H4") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 191.77 144.78 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid caef25ec-a7cd-48f1-a4e7-4f9c3f19cb76)
-    (property "Reference" "H1" (at 194.31 143.5099 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "~" (at 194.31 146.0499 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_2mm" (at 191.77 144.78 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 191.77 144.78 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "pmod_battery_power"
-        (path "/01f82238-6335-48fe-8b0a-6853e227345a"
-          (reference "H1") (unit 1)
-        )
-      )
-      (project "m590"
-        (path "/1d6e0379-077a-4c1a-9e5b-8cca83e0dbbe/5480c2b4-295a-4c48-ae29-91535f8fd021"
-          (reference "H3") (unit 1)
         )
       )
     )
