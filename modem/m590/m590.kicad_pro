@@ -518,6 +518,10 @@
     [
       "d2c79779-263c-4a5f-b199-599127fbe07b",
       "MODEM"
+    ],
+    [
+      "ded5de0a-14e3-4f86-af99-2f742f9b3ca9",
+      "Power"
     ]
   ],
   "text_variables": {}
