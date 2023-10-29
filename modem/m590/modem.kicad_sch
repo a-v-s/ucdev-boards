@@ -2132,7 +2132,7 @@
     (property "Value" "Antenna" (at 271.272 29.083 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" (at 268.732 27.178 0)
+    (property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" (at 268.732 27.178 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 268.732 27.178 0)
