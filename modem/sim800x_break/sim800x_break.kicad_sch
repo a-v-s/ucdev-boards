@@ -1,0 +1,65 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 1d6e0379-077a-4c1a-9e5b-8cca83e0dbbe)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 24.384 171.196) (size 19.558 18.796) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 5480c2b4-295a-4c48-ae29-91535f8fd021)
+    (property "Sheetname" "PMOD" (at 24.384 170.4844 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "pmod.kicad_sch" (at 24.384 190.5766 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "sim800x_break"
+        (path "/1d6e0379-077a-4c1a-9e5b-8cca83e0dbbe" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 48.26 171.196) (size 17.272 18.796) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid d2c79779-263c-4a5f-b199-599127fbe07b)
+    (property "Sheetname" "MODEM" (at 48.26 170.4844 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "modem.kicad_sch" (at 48.26 190.5766 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "sim800x_break"
+        (path "/1d6e0379-077a-4c1a-9e5b-8cca83e0dbbe" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 29.21 100.33) (size 12.7 12.7) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid ded5de0a-14e3-4f86-af99-2f742f9b3ca9)
+    (property "Sheetname" "Power" (at 29.21 99.6184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "power.kicad_sch" (at 29.21 113.6146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "sim800x_break"
+        (path "/1d6e0379-077a-4c1a-9e5b-8cca83e0dbbe" (page "4"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
