@@ -1913,7 +1913,7 @@
     (property "Reference" "L1" (at 146.05 48.26 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "6.8uH" (at 146.05 50.8 90)
+    (property "Value" "6.8 uH" (at 146.05 50.8 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Inductor_SMD:L_Bourns_SRP7028A_7.3x6.6mm" (at 146.05 53.34 0)
