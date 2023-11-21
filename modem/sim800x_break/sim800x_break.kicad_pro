@@ -482,6 +482,14 @@
       {
         "netclass": "PWR",
         "pattern": "VMODEM"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "DCDC*"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "BAT*"
       }
     ]
   },
