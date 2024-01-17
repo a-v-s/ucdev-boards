@@ -71,7 +71,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "gerber/slimme_meter_pmod_v0.3")
+      (outputdirectory "dsmr_v0.4")
     )
   )
 
