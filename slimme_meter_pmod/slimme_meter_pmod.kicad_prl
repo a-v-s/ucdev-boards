@@ -65,10 +65,10 @@
       40
     ],
     "visible_layers": "fffffff_ffffffff",
-    "zone_display_mode": 0
+    "zone_display_mode": 1
   },
   "meta": {
-    "filename": "m590.kicad_prl",
+    "filename": "slimme_meter_pmod.kicad_prl",
     "version": 3
   },
   "project": {

@@ -19,7 +19,7 @@
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "m590"
+      (project "sim800x_break"
         (path "/1d6e0379-077a-4c1a-9e5b-8cca83e0dbbe" (page "2"))
       )
     )
@@ -36,7 +36,7 @@
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "m590"
+      (project "sim800x_break"
         (path "/1d6e0379-077a-4c1a-9e5b-8cca83e0dbbe" (page "3"))
       )
     )
@@ -53,7 +53,7 @@
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "m590"
+      (project "sim800x_break"
         (path "/1d6e0379-077a-4c1a-9e5b-8cca83e0dbbe" (page "4"))
       )
     )
